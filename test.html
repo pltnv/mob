@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -9,7 +10,7 @@
 
 
 
-    document.querySelector('like_button_container')
+    document.querySelectorAll('like_button_container')
         .forEach(domContainer => {
             const commentID = parseInt(domContainer.dataset.commentid, 10);
             ReactDOM.render(
